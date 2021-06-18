@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ArrowFuncWithThis from './Resources/Componenets/ArrowFuncWithThis';
+// import ArrowFunc from './Resources/Componenets/ArrowFunc';
+// import ThisKeyword from './Resources/Componenets/ThisKeyword';
+// import Objects from './Resources/Componenets/Objects';
+// import LetConst from './Resources/Componenets/LetConst';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <LetConst></LetConst> */}
+      {/* <Objects></Objects> */}
+      {/* <ThisKeyword></ThisKeyword> */}
+      {/* <ArrowFunc></ArrowFunc> */}
+      <ArrowFuncWithThis></ArrowFuncWithThis>
     </div>
   );
 }
