@@ -2,7 +2,7 @@ import React from 'react';
 
 function ArrowFuncWithThis() {
 
-    //by normal function
+    //by normal function (To Perform actions)
     const person = {
         talk(){
             var self = this;
@@ -12,7 +12,7 @@ function ArrowFuncWithThis() {
         }
     };
 
-    //by arrow function
+    //by arrow function (To Perform actions)
     const personTwo = {
         talk(){
             // var self = this;
